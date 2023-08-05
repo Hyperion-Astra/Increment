@@ -1,3 +1,4 @@
+let saveEl = document.getElementById("savage")
 let countId = document.getElementById("count-el")
 
 let count = 0
@@ -7,5 +8,8 @@ function increment(){
 }
 
 function save(){
+    let countStr = count + " - "
+
+    saveEl += countStr
     console.log(count)
 }
