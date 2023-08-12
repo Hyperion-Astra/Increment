@@ -13,3 +13,4 @@ function save(){
     saveEl += countStr
     console.log(count)
 }
+// saveEl.style.color = 'red'
