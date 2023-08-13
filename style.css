@@ -31,10 +31,10 @@ button {
     border-radius: 5px;
 }
 #increment-btn {
-    background: darkred;
+    background: #000080;
 }
 button:hover{
-    color: blue;
+    color: rgb(107, 5, 5);
 }
 
 #save-btn {
